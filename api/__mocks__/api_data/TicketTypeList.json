@@ -1,0 +1,25 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1,
+            "service": 1,
+            "last_updated": "2018-09-10T06:57:58.771097Z",
+            "valid_from": "2018-09-05T13:00:00Z",
+            "valid_until": null,
+            "operator_phone": null,
+            "type": "DE_LIJN",
+            "ticket_type_code": "MT60",
+            "sku": "MT60",
+            "verbose_name": "M-ticket 60",
+            "ticket_type_name": "MT60",
+            "validity_minutes": 60,
+            "validity_value": 60,
+            "validity_unit": "MINUTE",
+            "tariff": 1.8,
+            "vat": 6.0
+        }
+    ]
+}

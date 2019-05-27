@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Terms and conditions Terms and conditions 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "space-between",
+      "padding": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 40,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../app/bus/img/terms-delijn.png",
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginRight": 15,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#f5f7fb",
+            "borderRadius": 15,
+            "height": 30,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 30,
+          }
+        }
+      >
+        <FontAwesome5Icon
+          color="#d9e0ef"
+          name="check"
+          size={10}
+          solid={true}
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "lineHeight": 20,
+            "textShadowRadius": 0,
+          }
+        }
+      >
+        I acknowledge I have read and agree to the
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "color": "#95B8F9",
+              "textShadowRadius": 0,
+            }
+          }
+        >
+           Terms of use
+        </Text>
+        .
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginBottom": 20,
+        "marginTop": 30,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#d9e0ef",
+          "borderRadius": 20,
+          "flex": 1,
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "paddingHorizontal": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#ffffff",
+            "fontWeight": "bold",
+          }
+        }
+      >
+         Continue 
+      </Text>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,15 @@
+{
+  "buy-new-products": "Koop nieuwe producten",
+  "retrieving-your-ticket": "Ticket aan het ophalen.",
+  "can-take-a-moment": "Dit kan eventjes duren.",
+  "ticket-order-failed-insufficient-credit": "Er is niet voldoende krediet beschikbaar om een ticket te kopen.",
+  "ticket-order-failed": "Er trad een fout op tijdens het bestellen van uw ticket.",
+  "phone-number-reason": "Dit telefoonnummer zal gebruikt worden om uw ticket te verifiëren in het geval van een lege batterij.",
+  "buyticketCount": "Buy {{count}} ticket",
+  "buyticketCount_plural": "Buy {{count}} tickets",  
+  "phone-number": "Telefoonnummer",
+  "one-ticket": "{{count}} ticket",
+  "one-ticket_plural": "{{count}} tickets",
+  "buy-ticket-title": "Koop {{title}}",
+  "mobility-budget": "Mobiliteitsbudget"
+}

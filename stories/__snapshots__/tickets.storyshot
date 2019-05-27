@@ -1,0 +1,723 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots BusTicketComponent Showing a 60 Minutes Ticket 1`] = `
+<View
+  style={
+    Object {
+      "flex": 148,
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 10,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "flex": 210,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 10,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFDD00",
+          "flex": 4,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#b9bec1",
+          "flex": 36,
+          "fontFamily": "FlandersArtSans-Regular",
+          "fontSize": 65,
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#797f84",
+            "fontFamily": "FlandersArtSans-Bold",
+          }
+        }
+      >
+        m-
+      </Text>
+      ticket
+    </Text>
+    <View
+      style={
+        Object {
+          "flex": 8,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#f3f5f5",
+          "flex": 65,
+          "justifyContent": "space-between",
+          "padding": 20,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#797f84",
+              "fontFamily": "FlandersArtSans-Regular",
+              "fontSize": 18,
+            }
+          }
+        >
+          De Lijn m-ticket 60 minuten
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#797f84",
+              "fontFamily": "FlandersArtSans-Bold",
+              "fontSize": 18,
+              "lineHeight": 30,
+            }
+          }
+        >
+          Geldig op alle voertuigen van De Lijn tot
+           15u40 op 02/01/2019.
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#797f84",
+            "fontFamily": "FlandersArtSans-Regular",
+            "fontSize": 18,
+          }
+        }
+      >
+        -                            Prijs: 
+        1,50
+         euro -                        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 10,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFDD00",
+          "flex": 19,
+          "justifyContent": "center",
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#797f84",
+            "fontFamily": "FlandersArtSans-Bold",
+            "fontSize": 25,
+          }
+        }
+      >
+        01-M4
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignContent": "center",
+          "alignSelf": "flex-start",
+          "flex": 15,
+          "justifyContent": "center",
+          "padding": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#797f84",
+              "fontFamily": "FlandersArtSans-Regular",
+              "fontSize": 18,
+              "lineHeight": 30,
+            }
+          }
+        >
+          afzender:
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#797f84",
+              "fontFamily": "FlandersArtSans-Regular",
+              "fontSize": 18,
+              "lineHeight": 30,
+              "textAlign": "right",
+            }
+          }
+        >
+          488401
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#797f84",
+            "fontFamily": "FlandersArtSans-Regular",
+            "fontSize": 18,
+            "lineHeight": 30,
+          }
+        }
+      >
+        154054A02jn935M4x537764
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 8,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flex": 25,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "maxHeight": 100,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/bus/img/ticket-vlaanderen.png",
+          }
+        }
+      />
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/bus/img/ticket-delijn.png",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 10,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Storyshots BusTicketScreen Showing a credit error 1`] = `
+<View
+  style={
+    Object {
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "padding": 20,
+      }
+    }
+  >
+    <FontAwesome5Icon
+      color="#FF5858"
+      name="exclamation-circle"
+      size={70}
+    />
+    <View
+      style={
+        Object {
+          "marginTop": 15,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#d9e0ef",
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Er is niet voldoende krediet beschikbaar om een ticket te kopen.
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#d9e0ef",
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Er werd u niets aangerekend.
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots BusTicketScreen Showing a test ticket 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 148,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 10,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "flex": 210,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFDD00",
+            "flex": 4,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#b9bec1",
+            "flex": 36,
+            "fontFamily": "FlandersArtSans-Regular",
+            "fontSize": 65,
+            "paddingHorizontal": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#797f84",
+              "fontFamily": "FlandersArtSans-Bold",
+            }
+          }
+        >
+          m-
+        </Text>
+        ticket
+      </Text>
+      <View
+        style={
+          Object {
+            "flex": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#f3f5f5",
+            "flex": 65,
+            "justifyContent": "space-between",
+            "padding": 20,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#797f84",
+                "fontFamily": "FlandersArtSans-Regular",
+                "fontSize": 18,
+              }
+            }
+          >
+            De Lijn m-ticket 60 minuten
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#797f84",
+                "fontFamily": "FlandersArtSans-Bold",
+                "fontSize": 18,
+                "lineHeight": 30,
+              }
+            }
+          >
+            Geldig op alle voertuigen van De Lijn tot
+             15u40 op 02/01/2019.
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#797f84",
+              "fontFamily": "FlandersArtSans-Regular",
+              "fontSize": 18,
+            }
+          }
+        >
+          -                            Prijs: 
+          1,50
+           euro -                        
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFDD00",
+            "flex": 19,
+            "justifyContent": "center",
+            "paddingHorizontal": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#797f84",
+              "fontFamily": "FlandersArtSans-Bold",
+              "fontSize": 25,
+            }
+          }
+        >
+          01-M4
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignContent": "center",
+            "alignSelf": "flex-start",
+            "flex": 15,
+            "justifyContent": "center",
+            "padding": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#797f84",
+                "fontFamily": "FlandersArtSans-Regular",
+                "fontSize": 18,
+                "lineHeight": 30,
+              }
+            }
+          >
+            afzender:
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#797f84",
+                "fontFamily": "FlandersArtSans-Regular",
+                "fontSize": 18,
+                "lineHeight": 30,
+                "textAlign": "right",
+              }
+            }
+          >
+            488401
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#797f84",
+              "fontFamily": "FlandersArtSans-Regular",
+              "fontSize": 18,
+              "lineHeight": 30,
+            }
+          }
+        >
+          154054A02jn935M4x537764
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "flex": 25,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "maxHeight": 100,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../app/bus/img/ticket-vlaanderen.png",
+            }
+          }
+        />
+        <Image
+          source={
+            Object {
+              "testUri": "../../../app/bus/img/ticket-delijn.png",
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 10,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 10,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Storyshots BusTicketScreen Waiting for the ticket 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#4268b0"
+      hidesWhenStopped={true}
+      size="large"
+    />
+    <View
+      style={
+        Object {
+          "marginTop": 15,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#d9e0ef",
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Ticket aan het ophalen.
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#d9e0ef",
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Dit kan eventjes duren.
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots BusTicketScreen Waiting until the ticket validated 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#4268b0"
+      hidesWhenStopped={true}
+      size="large"
+    />
+    <View
+      style={
+        Object {
+          "marginTop": 15,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#d9e0ef",
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Ticket aan het ophalen.
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#d9e0ef",
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Dit kan eventjes duren.
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

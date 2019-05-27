@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [{
+        "id": 7530,
+        "service": 59,
+        "last_updated": "2018-02-08T12:39:33.767340Z",
+        "valid_from": "2018-02-01T16:00:00Z",
+        "valid_until": null,
+        "operator_phone": null,
+        "type": "DE_LIJN",
+        "sku": "ML",
+        "bundle_type_name": "M-card10",
+        "bundle_type_code": "ML",
+        "verbose_name": "M-card10",
+        "expiration_date": null,
+        "validity_value": 12,
+        "validity_unit": "MONTH",
+        "ticket_count": 10,
+        "tariff": 15.0,
+        "vat": 6.0,
+        "ticket_type": {
+            "id": 7531,
+            "service": 59,
+            "last_updated": "2018-02-08T12:39:33.771482Z",
+            "valid_from": "2018-02-01T16:00:00Z",
+            "valid_until": null,
+            "operator_phone": null,
+            "type": "DE_LIJN",
+            "sku": "MLT60",
+            "ticket_type_id": "4010",
+            "verbose_name": "M-card10 ticket",
+            "ticket_type_name": "MLT60",
+            "validity_value": 60,
+            "validity_unit": "MINUTE"
+        }
+    }]
+}
